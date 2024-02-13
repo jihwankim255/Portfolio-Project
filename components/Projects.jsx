@@ -10,26 +10,32 @@ export const projects = [
   {
     title: 'Trypto',
     url: 'https://github.com/jihwankim255/Trypto-client',
-    image: '',
+    image: 'projects/trypto.jpg',
     description: 'Trypto',
   },
   {
     title: 'Collectifi',
     url: 'https://github.com/jihwankim255/Collectifi',
-    image: '',
+    image: 'projects/collectifi.jpg',
     description: 'Collectifi',
   },
   {
     title: 'TokenInside',
     url: 'https://github.com/jihwankim255/token-inside',
-    image: '',
-    description: 'TokenInside',
+    image: 'projects/token-inside.jpg',
+    description: 'Token-inside',
   },
   {
     title: 'Team-Exodus',
     url: 'https://team-exodus.vercel.app/',
-    image: '',
+    image: 'projects/team-exodus.jpg',
     description: 'Team-Exodus',
+  },
+  {
+    title: 'Portfolio',
+    url: '',
+    image: 'projects/portfolio.png',
+    description: 'Portfolio',
   },
 ]
 
