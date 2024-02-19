@@ -33,7 +33,7 @@ export const projects = [
   },
   {
     title: 'Portfolio',
-    url: '',
+    url: 'https://www.jihwankim.com/',
     image: 'projects/portfolio.png',
     description: 'Portfolio',
   },

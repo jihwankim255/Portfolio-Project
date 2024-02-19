@@ -50,9 +50,9 @@ const AboutSection = (props) => {
   return (
     <Section mobileTop>
       <h1 className="text-4xl md:text-6xl font-extrabold leading-snug mt-8 md:mt-0">
-        Hi, Im
+        프론트엔드 개발자
         <br />
-        <span className="px-1 italic">Jihwan Kim</span>
+        <span className="px-1 italic"> 김지환입니다</span>
       </h1>
       <motion.p
         className="text-lg text-gray-600 mt-4"
@@ -69,9 +69,9 @@ const AboutSection = (props) => {
           delay: 1.5,
         }}
       >
-        I make YouTube videos to help developers
+        저는 새로운 기술을 배우고 적용하는 것에 강점이 있습니다
         <br />
-        learn how to build 3D apps
+        업무 커뮤니케이션을 잘 이끌어갈 수 있습니다
       </motion.p>
       <motion.button
         onClick={() => setSection(3)}
@@ -98,38 +98,38 @@ const AboutSection = (props) => {
 
 const skills = [
   {
-    title: 'Threejs / React Three Fiber',
-    level: 80,
-  },
-  {
-    title: 'React / React Native',
+    title: 'React.js',
     level: 90,
   },
   {
-    title: 'Nodejs',
-    level: 90,
-  },
-  {
-    title: 'Typescript',
+    title: 'Next.js',
     level: 60,
   },
   {
-    title: '3D Modeling',
-    level: 40,
+    title: 'Nodejs',
+    level: 80,
+  },
+  {
+    title: 'Redux',
+    level: 60,
+  },
+  {
+    title: 'TailwindCSS',
+    level: 80,
   },
 ]
 const languages = [
   {
-    title: '🇫🇷 French',
-    level: 100,
+    title: 'Javascript',
+    level: 90,
   },
   {
-    title: '🇺🇸 English',
-    level: 80,
+    title: 'Typescript',
+    level: 70,
   },
   {
-    title: '🇯🇵 Japanese',
-    level: 20,
+    title: 'Python',
+    level: 70,
   },
 ]
 
@@ -317,10 +317,11 @@ const ContactSection = () => {
               errors={state.errors}
             />
             <button
-              disabled={state.submitting}
+              disabled={true}
+              // disabled={state.submitting}
               className="bg-indigo-600 text-white py-4 px-8 rounded-lg font-bold text-lg mt-16 "
             >
-              Submit
+              Submit 미구현
             </button>
           </form>
         )}
